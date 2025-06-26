@@ -87,6 +87,10 @@ app.post("/ask", async (req, res) => {
   }
 });
 
+app.post("/ping", async (req, res) => {
+  console.log("Ping received!");
+  res.sendStatus(200);
+})
 app.listen(5000, () => {
   console.log("✅ Server is running on http://localhost:5000");
 });
