@@ -47,7 +47,7 @@ app.post("/ask", async (req, res) => {
       method: "POST",
       headers: {
         "Authorization": `Bearer ${OPENROUTER_API_KEY}`,
-        "HTTP-Referer": "https://kalpai-frontend.vercel.app",
+        "HTTP-Referer": "https://kalpai-frontend-2v9do28j7-pandeyvipuls-projects.vercel.app",
         "X-Title": "Kalp AI Assistant",
         "Content-Type": "application/json"
       },
